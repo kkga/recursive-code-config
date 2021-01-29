@@ -1,26 +1,26 @@
 # Configure your own custom Rec Mono for Code font
 
-#                                                                              
-#                                             /$$$$$$     /$$                  
-#                                            /$$    /    /  /             $$$  
-#    /$$$$$$$    /$$$$$$$    /$$ $$$$$    /$$$$$$$$$   /$$$$$      /$$$$$$$ /  
-#   /$$_____/   /$$____ $$  | $$$___ $$  |___ $$__/   |___ $$     /$$     $$   
-#  | $$        | $$   | $$  | $$   | $$     | $$         | $$    \  $$$$$$$    
-#  | $$        | $$   | $$  | $$   | $$     | $$         | $$     \  $$   /    
-#  \  $$$$$$$  \  $$$$$$$   | $$   | $$   /$$$$$$$$$  /$$$$$$$$$  / $$$$$$$$   
-#   \_______/   \_______/   |__/   |__/  |_________/ |_________/ | $$      $$  
-#                                                                \  $$$$$$$$   
-#                                                                 \_______/    
-#                                                                              
+#
+#                                             /$$$$$$     /$$
+#                                            /$$    /    /  /             $$$
+#    /$$$$$$$    /$$$$$$$    /$$ $$$$$    /$$$$$$$$$   /$$$$$      /$$$$$$$ /
+#   /$$_____/   /$$____ $$  | $$$___ $$  |___ $$__/   |___ $$     /$$     $$
+#  | $$        | $$   | $$  | $$   | $$     | $$         | $$    \  $$$$$$$
+#  | $$        | $$   | $$  | $$   | $$     | $$         | $$     \  $$   /
+#  \  $$$$$$$  \  $$$$$$$   | $$   | $$   /$$$$$$$$$  /$$$$$$$$$  / $$$$$$$$
+#   \_______/   \_______/   |__/   |__/  |_________/ |_________/ | $$      $$
+#                                                                \  $$$$$$$$
+#                                                                 \_______/
+#
 
 # -----------------------------------------------------------------------------
 # Family Name
 
-# The name you want after "Rec Mono" in your custom fonts. 
-# Example: "Custom" will yield the family "Rec Mono Custom". 
+# The name you want after "Rec Mono" in your custom fonts.
+# Example: "Custom" will yield the family "Rec Mono Custom".
 # Keep under 13 characters in length to avoid potential OS bugs.
 
-Family Name: Tessssting 
+Family Name: Custom
 
 # -----------------------------------------------------------------------------
 # Font Styles
@@ -38,7 +38,7 @@ Fonts:
 
   Regular:
     MONO: 1
-    CASL: 0
+    CASL: 1
     wght: 425
     slnt: 0
     CRSV: 0
@@ -52,7 +52,7 @@ Fonts:
 
   Bold:
     MONO: 1
-    CASL: 0
+    CASL: 1
     wght: 750
     slnt: 0
     CRSV: 0
@@ -68,9 +68,9 @@ Fonts:
 # Font Features
 
 # Freeze in code ligatures? True or False
-Code Ligatures: True
+Code Ligatures: False
 
-# Include font features to freeze in stylistic options. Copy them below to use. 
+# Include font features to freeze in stylistic options. Copy them below to use.
 # See README for details.
 
 # These options only have an affect at CRSV<=0.5 (Roman/normal styles)
